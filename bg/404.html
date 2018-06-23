@@ -5,10 +5,10 @@
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="This is the Pythagoras Systems home page.">
-        <meta name="author" content="pythagoras.systems">
+        <meta name="description" content="This is the Semantic Labs home page.">
+        <meta name="author" content="Semantic Labs">
 
-        <title>Pythagoras Systems</title>
+        <title>Semantic Labs</title>
 
         <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -46,6 +46,12 @@
         <meta name="apple-mobile-web-app-title" content="Volentix">
         <meta name="application-name" content="Volentix">
         <meta name="msapplication-config" content="assets/fav_icon/browserconfig.xml?v=RyMydNwazz">
+        <style type="text/css">
+            @font-face {
+                font-family: "stargate";
+                src: url(assets/vendor/stargate/Stargate.ttf) format("truetype");
+            }
+            </style>
 
     </head>
 
@@ -55,28 +61,35 @@
 
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Pythagoras Systems</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><span style="font-family: stargate;">Semantic Labs</span></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#quotes">кавички</a>
+              </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">Hakkında</a>
+            <a class="nav-link js-scroll-trigger" href="#about">относно</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#corevalues"></a>
+              <a class="nav-link js-scroll-trigger" href="#corevalues">Основни ценности</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#applications"></a>
+                <a class="nav-link js-scroll-trigger" href="#overview">Преглед</a>
               </li>
             
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#team"></a>
+            <a class="nav-link js-scroll-trigger" href="#contact">контакт</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Temas</a>
-          </li>
+          <li class="nav-item" style="padding: 5px;">
+              
+              <a id="switch_to_english" href="/index.html">
+                <img src="assets/img/uk.svg" alt="English" height="14px" style="border-radius: 15%;"/>
+              </a>
+              
+            </li>
         </ul>
       </div>
     </div>
@@ -130,7 +143,7 @@
   <div class="row">
     <div class="col-lg-5 col-md-5 text-center" >
       <ul class="contact">
-        <li><a href="https://github.com/Volentix" ><i class="fa fa-github" style="color: grey; font-size:35px;"></i></a></li>
+        <li><a href="https://github.com/Semanticlabsio" ><i class="fa fa-github" style="color: grey; font-size:35px;"></i></a></li>
         <li><a href="https://t.me/volentix"><i class="fa fa-telegram" style="color: grey; font-size: 35px;"></i></a></li>
         <li><a href="https://twitter.com/Volentix"><i class="fa fa-twitter" style="color: grey; font-size: 35px;"></i></a></li>
         <li><a href="https://medium.com/@marketing_33515"><i class="fa fa-medium" style="color: grey; font-size: 35px;"></i></a></li>
@@ -146,14 +159,14 @@
       <ul class="contact" >
         <li>
           <h6 style="color: grey; font-size: 15px;">
-            <a href="mailto:info@pythagoras.systems" style="color: grey;">info@pythagoras</a><span> | </span>
+            <a href="mailto:SS@semanticlabs.io" style="color: grey;">info@semantic</a><span> | </span>
             
-            <a href=" /tr/privacy.html " style="color: grey;">Privacy Policy</a><span> | </span>
-            <a href=" /tr/terms.html " style="color: grey;">Terms &amp; Conditions</a>
+            <a href=" /bg/privacy.html " style="color: grey;">Privacy Policy</a><span> | </span>
+            <a href=" /bg/terms.html " style="color: grey;">Terms &amp; Conditions</a>
           </h6>
         </li>
       </ul>
-      <h6 style="color: grey; font-size: 10px;" class="text-right">Copyright &copy; 2018 Pythagoras Systems Inc. | All rights reserved.</h6>
+      <h6 style="color: grey; font-size: 10px;" class="text-right">Copyright &copy; 2018 Symantic Labs Inc. | All rights reserved.</h6>
     </div>
   </div>
 </section> 
@@ -174,7 +187,7 @@
             
           $(function(){
             $(".typed").typed({
-                strings: ["The right angle in blockchain."],
+                strings: ["ПОСОЧВАНЕ НА ДАННИ."],
                 // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
                 stringsElement: null,
                 typeSpeed: 10,
