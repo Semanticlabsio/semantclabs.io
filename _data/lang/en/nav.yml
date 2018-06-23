@@ -1,5 +1,7 @@
 about: 
   name: About
+quotes:
+  name: Quotes
 core:
   name: Core Values
 applications:
@@ -8,3 +10,5 @@ team:
   name: Team
 contact: 
   name: Contact
+overview:
+  name: Overview

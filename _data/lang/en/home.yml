@@ -5,14 +5,21 @@ about_us: About Us
 about: About
 email: Email
 core_values: Core Values
-applications: Applications
-vespucci: Vespucci
-vespucci_desc: An AI-powered analytical engine for rating and ranking digital assets enabling user security by measuring social sentiment, market data, and other key metrics. 
-parklink: Parklink
-parklink_desc: A DApp providing the sixth sense in parking reducing traffic, pollution, fuel, time, frustration, and parking costs. Parking space spotters are incentivised through blockchain remuneration.
-done: Done!
-done_desc: Done! provides a platform for workers and employers in the decentralized era. Done! maximizes efficency, minimizes cost, and ensures the right fit is found.
+vision_header: Vision
 vision: This is a placeholder for the vision.
+mission_header: Mission
 mission: This is a placeholder for the mission.
 button_text: Sign Up
 contact_us: Contact
+quotes_header: Quotes
+quote_1_header: Sir Tim Berners-Lee
+quote_1_desc: The semantic web is not a separate web but an extension of the current one in which information is given well defined meaning better enabling computers and people to work in cooperation
+quote_2_header: Edsger Dijkstra
+quote_2_desc: The purpose of abstraction is not to be vague, but to create a new semantic level in which one can be absolutely precise
+quote_3_header: Sir Tim Berners-Lee
+quote_3_desc: If HTML and the Web made all the online documents look like one huge book. The Semantic Web will make all the data in the world look like one huge database
+intro_header: Overview
+intro_one_header: Industry
+intro_one_desc: Semantic technologies have been around for decades, widespread interest in such technologies is now becoming more evident. The application of Semantic technologies make the constant refinement of Google search results, and the Natural Language Processing (NLP) capabilities of IBM Watson possible, and have been behind many more impressive technological advancements of our time. Such technologies hold the key to the future of Artificial Intelligence (AI) because these technologies allow us to add knowledge and logic to AI and unlock previously unimaginable reasoning capability.
+intro_two_header: Volentix
+intro_two_desc: The Volentix decentralized management protocol permits the development, operation and evolution of a Dapp without requiring a company structure. Autonomous agents operate and evolve the Dapp by playing worker roles and completing work units, and can join or leave the network at any time. Knowledge is integrated using dialogue maps and managed as reusable topic-based chunks. Liquid democracy enables fluid, non-centralized control over and evolution of the Dapp by its most knowledgeable participants.
